@@ -1,0 +1,26 @@
+{
+  "id": "dummy-rivulet-plugin",
+  "name": "Dummy rivulet plugin",
+  "version": "0.0.1",
+  "description": "Humpty dumpty sat on a wall.",
+  "author": "faiz4sure",
+  "icon": "assets/icon.png",
+  "entry": "index.ts",
+  "permissions": {
+    "storage": true
+  },
+  "providers": [
+    {
+      "id": "dummyProvider",
+      "name": "Netflix Mirror",
+      "description": "Pat the cat on the head.",
+      "icon": "assets/net.png"
+    },
+    {
+      "id": "movieboxProvider",
+      "name": "MovieBox",
+      "description": "haaaaaaaaaaaaa",
+      "icon": "assets/moviebox.png"
+    }
+  ]
+}
